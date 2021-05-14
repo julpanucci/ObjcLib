@@ -21,8 +21,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ObjcLib",
-            dependencies: ["BaseLib"],
-			publicHeadersPath: "Sources/"
+			dependencies: ["BaseLib"],
+			path: "Sources/",
+			sources: ["."],
+			publicHeadersPath: "include"
 		),
         .testTarget(
             name: "ObjcLibTests",
