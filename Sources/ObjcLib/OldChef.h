@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CookInterface.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyClass : NSObject
+@interface OldChef : NSObject <CookInterface>
 
 @end
 

@@ -5,8 +5,13 @@
 //  Created by Julian Panucci on 5/14/21.
 //
 
-#import "MyClass.h"
+#import "OldChef.h"
+@import BaseLib;
 
-@implementation MyClass
+@implementation OldChef
+
+- (void)cook:(Food *)food {
+	NSLog(@"Cooking food:%@", food.name);
+}
 
 @end
