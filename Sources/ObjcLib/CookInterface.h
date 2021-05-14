@@ -8,13 +8,14 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class Food;
-@protocol FoodEater;
-
-@interface Chef : NSObject <FoodEater>
 
 
--(Food *)createFood:(NSString *)name;
+@protocol CookInterface <NSObject>
+
+
+-(void)cook:(Food *)food;
 
 @end
 
