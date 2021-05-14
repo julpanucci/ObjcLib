@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BaseLib",
+        "repositoryURL": "https://github.com/julpanucci/BaseLib.git",
+        "state": {
+          "branch": "main",
+          "revision": "f303210404130a55217954a7a79e28cfdaebfdf9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
