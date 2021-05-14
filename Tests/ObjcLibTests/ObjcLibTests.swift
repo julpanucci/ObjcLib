@@ -1,15 +1,4 @@
-import XCTest
-@testable import ObjcLib
+//import XCTest
+//@testable import ObjcLib
 
-final class ObjcLibTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(ObjcLib().text, "Hello, World!")
-    }
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
-}
+///Users/julian/BaseLib
